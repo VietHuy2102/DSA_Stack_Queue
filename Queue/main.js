@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Queue_1 = require("./Queue");
+var queue = new Queue_1.Queue();
+queue.enqueue("huy");
+queue.enqueue("uyen");
+queue.enqueue("suki");
+console.log(queue.container);
+console.log(queue.dequeue());
+console.log(queue.container);
